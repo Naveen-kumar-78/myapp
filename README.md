@@ -13,7 +13,7 @@ This repository contains a Dockerfile to create a containerized Tomcat 9 environ
 ## 🧪 Getting Started
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/tomcat9-java8-docker-webapp.git
-cd tomcat9-java8-docker-webapp
+docker build -t my-tomcat-app .
+docker run -d -p 8080:8080 my-tomcat-app
+http://localhost:8080/SampleWebApp
 
